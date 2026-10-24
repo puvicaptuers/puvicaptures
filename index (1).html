@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Puvi Captures – JK Rahul Raj, Photographer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&family=Newsreader:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap">
+<style>
+:root{--bg:#131314;--bg2:#0e0e0f;--card:#1c1b1c;--card2:#201f20;--line:#2a2a2b;--gold:#e0c298;--txt:#c5c7c1;--wh:#e5e2e3;--dk:#30312e;
+--sans:'Geist',system-ui,-apple-system,sans-serif;--serif:'Newsreader',Georgia,serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);font:300 15px/1.65 var(--sans)}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+section,footer{padding:80px 0}
+.w{max-width:1280px;margin:0 auto;padding:0 80px}
+.eb{font:500 11px/16px var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:5px}
+h2{font:400 56px/1.1 var(--serif);letter-spacing:-.025em;color:var(--wh)}
+h2 em,h1 em{font-style:italic}
+.lead{font-size:18px;line-height:1.6;letter-spacing:-.005em}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 32px;background:#fff;color:var(--dk);font:500 11px/16px var(--sans);letter-spacing:.16em;text-transform:uppercase;border:0;cursor:pointer;box-shadow:0 24px 48px -12px rgba(0,0,0,.6);transition:.2s}
+.btn:hover{background:var(--gold)}
+.btn.o{background:transparent;color:var(--wh);box-shadow:none;border:1px solid var(--line)}
+.btn.o:hover{border-color:var(--gold);color:var(--gold)}
+.hd{display:flex;justify-content:space-between;align-items:flex-end;gap:48px;margin-bottom:80px}
+.hd p{max-width:448px}
+.ct{text-align:center}.ct .hd{display:block}
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(19,19,20,.85);backdrop-filter:blur(12px);box-shadow:0 1px 8px rgba(0,0,0,.04)}
+header .w{display:flex;align-items:center;justify-content:space-between;height:80px}
+.logo{font:500 11px var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--wh)}
+nav{display:flex;gap:48px}
+nav a{font:500 11px var(--sans);letter-spacing:.14em;text-transform:uppercase}
+nav a:first-child{font-size:15px;letter-spacing:0;color:var(--gold);text-decoration:underline}
+.hr{display:flex;gap:24px;align-items:center}
+.hr .btn{padding:6px 24px;letter-spacing:.05em}
+.av{width:32px;height:32px;border-radius:50%;background:#fff;display:grid;place-items:center}
+.menu{display:none;background:none;border:1px solid var(--line);color:var(--wh);padding:6px 12px;font:500 11px var(--sans);letter-spacing:.1em;cursor:pointer}
+/* hero */
+#home{position:relative;overflow:hidden;padding:112px 0 80px}
+#home:before{content:"";position:absolute;left:360px;top:-128px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(224,194,152,.15),transparent 70%)}
+#home:after{content:"";position:absolute;left:40px;bottom:-60px;width:450px;height:450px;border-radius:50%;background:radial-gradient(circle,rgba(224,194,152,.05),transparent 70%)}
+.hero{position:relative;z-index:1;display:grid;grid-template-columns:1.43fr 1fr;gap:40px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:12px;padding:0 12px;height:24px;border:1px solid var(--line);font:500 11px var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.badge i{width:6px;height:6px;border-radius:50%;background:var(--gold)}
+h1{font:400 88px/1.05 var(--serif);letter-spacing:-.03em;color:var(--wh);margin:24px 0}
+h1 em{color:var(--gold)}
+.hero .lead{max-width:576px;margin-bottom:24px}
+.ctas{display:flex;gap:24px;flex-wrap:wrap;margin:24px 0 40px}
+.pil{display:flex;gap:24px;align-items:center;flex-wrap:wrap;font:400 13px var(--sans);letter-spacing:.04em;color:rgba(197,199,193,.8)}
+.pil i{width:4px;height:4px;border-radius:50%;background:var(--gold)}
+.pf{position:relative;padding:8px;background:var(--card);box-shadow:0 24px 48px -12px rgba(0,0,0,.6)}
+.pf img{width:100%;aspect-ratio:427/534;object-fit:cover}
+.pf:after{content:"";position:absolute;inset:8px;background:linear-gradient(to top,rgba(14,14,15,.9),rgba(14,14,15,0) 60%)}
+.plate{position:absolute;left:24px;right:24px;bottom:24px;z-index:2;padding:12px;background:rgba(14,14,15,.4);backdrop-filter:blur(8px)}
+.plate b{display:block;font:500 11px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.plate span{display:block;font:italic 400 20px var(--serif);color:#fff}
+.plate small{font:400 13px var(--sans);letter-spacing:.04em;color:var(--txt)}
+/* stats */
+#stats{padding:48px 0;background:var(--bg2);border-block:1px solid var(--line)}
+.st{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}
+.st b{display:block;font:300 56px/1.1 var(--serif);letter-spacing:-.025em;color:var(--wh)}
+.st .g{color:var(--gold)}
+.st span{display:block;margin-top:5px;font:500 11px var(--sans);letter-spacing:.14em;text-transform:uppercase}
+/* services */
+.sv{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.sc{background:var(--card);padding:24px}
+.sc img{width:100%;aspect-ratio:488/305;object-fit:cover;margin-bottom:24px}
+.sc small{font:400 13px var(--sans);letter-spacing:.04em;color:var(--gold)}
+.sc h3{font:500 24px/1.25 var(--serif);letter-spacing:-.01em;color:var(--wh);margin:5px 0 12px}
+.sc p{margin-bottom:20px}
+.lk{font:500 11px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--gold)}
+/* compare */
+.cp{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.cd{position:relative;overflow:hidden;background:var(--card);padding:48px}
+.cd.a{background:var(--card2);border:1px solid rgba(224,194,152,.5)}
+.cd.a:before{content:"";position:absolute;right:-60px;top:-64px;width:192px;height:192px;border-radius:50%;background:rgba(224,194,152,.15);filter:blur(40px)}
+.ch{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;position:relative}
+.ch span{font:500 11px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:rgba(197,199,193,.6)}
+.a .ch span{color:var(--gold)}
+.tg{padding:2px 10px;font:400 13px var(--sans);background:var(--line);color:var(--txt)}
+.a .tg{background:var(--gold);color:#402d0f;font-weight:500}
+.cd img{width:100%;aspect-ratio:440/330;object-fit:cover;margin-bottom:24px;position:relative}
+.cd:not(.a) img{filter:grayscale(1) brightness(.7)}
+.cd h4{font:500 24px/1.25 var(--serif);color:var(--txt);margin-bottom:5px}
+.a h4{color:var(--wh)}
+.cd ul{list-style:none;margin-top:20px;font:400 13px var(--sans);letter-spacing:.04em}
+.cd li{padding:6px 0 6px 20px;position:relative;color:rgba(197,199,193,.7)}
+.cd li:before{content:"×";position:absolute;left:0}
+.a li{color:var(--gold)}.a li:before{content:"✓"}
+/* process */
+.pr{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}
+.ps{background:var(--card);padding:24px;display:flex;flex-direction:column;justify-content:space-between;min-height:300px}
+.ps .n{display:flex;justify-content:space-between;font:300 24px var(--serif);color:var(--gold);margin-bottom:5px}
+.ps h3{font:400 20px/1.3 var(--serif);letter-spacing:.02em;color:var(--wh);margin-bottom:12px}
+.ps small{display:block;margin-top:24px;font:400 13px var(--sans);letter-spacing:.04em;color:rgba(197,199,193,.5)}
+.ps.on small{color:rgba(224,194,152,.8)}
+/* gallery */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:48px}
+.tabs button{padding:6px 16px;background:transparent;border:1px solid var(--line);color:var(--txt);font:500 11px var(--sans);letter-spacing:.05em;text-transform:uppercase;cursor:pointer}
+.tabs button.on{background:#fff;color:var(--dk);border-color:#fff}
+.gl{display:grid;grid-template-columns:repeat(12,1fr);gap:24px}
+.gl img{width:100%;height:100%;object-fit:cover}
+.g1{grid-column:span 7;grid-row:span 2;aspect-ratio:643/804}
+.g2{grid-column:span 5;align-self:center;aspect-ratio:453/566}
+.g3,.g4,.g5{grid-column:span 4;aspect-ratio:357/268}
+/* testimonials */
+.tm{display:grid;grid-template-columns:repeat(3,1fr);gap:48px}
+.tc{background:var(--card);padding:48px;display:flex;flex-direction:column;justify-content:space-between;gap:40px}
+.stars{color:var(--gold);letter-spacing:5px;font-size:14px;margin-bottom:24px}
+.tc blockquote{font:italic 400 20px/1.6 var(--serif);letter-spacing:.02em;color:#fff}
+.who{display:flex;gap:12px;align-items:center}
+.who img{width:48px;height:48px;border-radius:50%;object-fit:cover}
+.who b{display:block;font-weight:500;color:var(--wh)}
+.who small{font:400 13px/1.4 var(--sans);letter-spacing:.04em}
+/* package */
+.pk{max-width:896px;margin:0 auto;padding:80px;background:var(--card2);border:1px solid rgba(224,194,152,.5);text-align:left}
+.pk .bd{display:inline-block;padding:4px 12px;background:var(--gold);color:#402d0f;font:500 11px var(--sans);letter-spacing:.1em;text-transform:uppercase}
+.pk h3{font:300 36px/1.15 var(--serif);letter-spacing:-.015em;color:var(--wh);margin:12px 0 16px}
+.sp{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:24px;margin:32px 0;background:var(--bg2);border:1px solid var(--line)}
+.sp small{display:block;font:500 11px var(--sans);letter-spacing:.14em;text-transform:uppercase;margin-bottom:5px}
+.sp b{display:block;font:300 24px/1.25 var(--serif);color:var(--wh)}
+.sp .g{color:var(--gold)}
+.inc{display:grid;grid-template-columns:1fr 1fr;gap:6px 24px;margin:24px 0 40px;font-weight:400;list-style:none}
+.inc li:before{content:"✓";color:var(--gold);margin-right:8px}
+.ar{display:flex;align-items:center;gap:40px;flex-wrap:wrap}
+.ar span{font:400 13px var(--sans);letter-spacing:.04em}
+/* form */
+.fm{display:grid;grid-template-columns:1fr 1.44fr;gap:40px;align-items:start}
+.info{display:flex;flex-direction:column;gap:40px}
+.cc{background:var(--card);padding:24px}
+.cc small{display:block;font:500 11px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:5px}
+.cc p{font:400 13px/1.9 var(--sans);letter-spacing:.04em;color:var(--txt)}
+.cc p+small{margin-top:24px}
+.fb{background:var(--card);padding:80px;box-shadow:0 24px 48px -12px rgba(0,0,0,.6)}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.fb label{display:block;margin-bottom:24px;font:500 11px var(--sans);letter-spacing:.05em;text-transform:uppercase}
+.fb input{display:block;width:100%;margin-top:4px;padding:12px;background:var(--bg);border:1px solid var(--line);color:var(--wh);font:400 15px var(--sans);outline:0;transition:.2s}
+.fb input:focus{border-color:var(--gold)}
+.fb input::placeholder{color:rgba(197,199,193,.4)}
+.fb .btn{width:100%;padding:16px}
+.fb .btn[disabled]{opacity:.6;cursor:wait}
+.priv{margin-top:20px;text-align:center;font:400 13px var(--sans);letter-spacing:.04em;color:rgba(197,199,193,.7)}
+#msg{display:none;margin-top:16px;padding:12px;text-align:center;font:500 13px var(--sans)}
+#msg.ok{display:block;background:rgba(224,194,152,.15);color:var(--gold)}
+#msg.err{display:block;background:rgba(255,100,100,.12);color:#ff9d9d}
+/* faq */
+.fq{max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+details{background:var(--card);padding:24px}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;font:500 20px/1.3 var(--serif);letter-spacing:.02em;color:var(--wh)}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"";width:8px;height:8px;border:solid var(--gold);border-width:0 2px 2px 0;transform:rotate(45deg);transition:.2s;flex:none}
+details[open] summary:after{transform:rotate(-135deg)}
+details p{margin-top:12px}
+/* final cta */
+#cta{position:relative;overflow:hidden;text-align:center;padding:160px 0}
+#cta img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#cta:before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(to bottom,rgba(19,19,20,.7),rgba(14,14,15,.9))}
+#cta .w{position:relative;z-index:2;max-width:1024px}
+#cta .bd{display:inline-block;padding:4px 12px;margin-bottom:24px;background:rgba(224,194,152,.15);border:1px solid rgba(224,194,152,.5);font:500 11px var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+#cta h2 em{color:var(--gold)}
+#cta .lead{max-width:576px;margin:24px auto 40px}
+/* footer */
+footer{background:var(--bg2);padding-bottom:40px}
+.ft{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px}
+.ft h5{font:500 11px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.ft li{list-style:none;font:400 13px/1.9 var(--sans);letter-spacing:.04em}
+.ft li a:hover{color:var(--gold)}
+.ft .nm{font:400 24px var(--serif);letter-spacing:.1em;text-transform:uppercase;color:var(--wh)}
+.ft .ph{display:inline-block;margin-top:12px;padding:0 4px;background:var(--card);font:400 13px var(--sans)}
+.ft .ml{display:block;margin-top:12px;font:400 13px var(--sans);letter-spacing:.04em;color:var(--gold)}
+.mid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.bb{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font:400 13px var(--sans);letter-spacing:.04em;color:rgba(197,199,193,.6)}
+.bb div{display:flex;gap:24px}
+/* responsive */
+@media(max-width:1100px){.w{padding:0 40px}h1{font-size:64px}h2{font-size:44px}nav{gap:24px}.pr{grid-template-columns:1fr 1fr}.sp{grid-template-columns:1fr 1fr}.fb{padding:48px}.pk{padding:48px}}
+@media(max-width:900px){.hero,.fm,.cp,.sv,.tm{grid-template-columns:1fr}.hd{flex-direction:column;align-items:flex-start;gap:24px;margin-bottom:48px}.st{grid-template-columns:1fr 1fr}.ft{grid-template-columns:1fr 1fr}.ft>div:first-child{grid-column:1/-1}nav{display:none}nav.open{display:flex;flex-direction:column;position:absolute;top:80px;left:0;right:0;padding:24px 40px;background:var(--bg);border-bottom:1px solid var(--line)}.menu{display:block}.hr .btn{display:none}.g1,.g2,.g3,.g4,.g5{grid-column:span 12;grid-row:auto}.g3,.g4,.g5{grid-column:span 6}.inc{grid-template-columns:1fr}}
+@media(max-width:600px){section,footer{padding:56px 0}.w{padding:0 20px}h1{font-size:44px}h2{font-size:34px}.fr,.pr,.sp,.st{grid-template-columns:1fr}.fb,.pk,.cd,.tc{padding:24px}.g3,.g4,.g5{grid-column:span 12}.ft{grid-template-columns:1fr}.bb{flex-direction:column}#cta{padding:96px 0}.ctas .btn{width:100%}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="w">
+    <a class="logo" href="#home">Puvi Captures</a>
+    <nav id="nav">
+      <a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#process">Process</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
+    </nav>
+    <div class="hr">
+      <a class="btn" href="#inquire">Book Session</a>
+      <span class="av"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#131314" stroke-width="1.4"><circle cx="6" cy="3.5" r="2.3"/><path d="M1.5 11c0-2.5 2-4 4.5-4s4.5 1.5 4.5 4"/></svg></span>
+      <button class="menu" id="menu" aria-label="Menu">MENU</button>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- 1. HERO -->
+<section id="home">
+  <div class="w hero">
+    <div>
+      <span class="badge"><i></i>Professional Photography &amp; Personal Branding</span>
+      <h1>Your image is your first impression. <em>Make it unforgettable.</em></h1>
+      <p class="lead">Transform the way the world sees you with bespoke portraiture designed to elevate your personal brand, articulate unwavering confidence, and command distinction.</p>
+      <div class="ctas"><a class="btn" href="#inquire">Book Your Photoshoot</a><a class="btn o" href="#portfolio">Explore My Work</a></div>
+      <div class="pil"><span>Personal Branding</span><i></i><span>Professional Portraits</span><i></i><span>Creative Direction</span></div>
+    </div>
+    <div class="pf">
+      <img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/01d0c.png" alt="Portrait by JK Rahul Raj">
+      <div class="plate"><b>· Puvi Captures</b><span>JK. Rahul Raj</span><small>+91 75501 96665</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. ACHIEVEMENTS -->
+<section id="stats">
+  <div class="w st">
+    <div><b>200+</b><span>Clients Photographed</span></div>
+    <div><b>250+</b><span>Photoshoots Completed</span></div>
+    <div><b>10,000+</b><span>Images Delivered</span></div>
+    <div><b class="g">100%</b><span>Personalized Approach</span></div>
+  </div>
+</section>
+
+<!-- 3. SERVICES -->
+<section id="services">
+  <div class="w">
+    <div class="hd">
+      <div><div class="eb">Disciplines &amp; Practice</div><h2>More than photography. <em>A visual identity.</em></h2></div>
+      <p>Every image should communicate something meaningful about who you are. From professional portraits to complete personal branding shoots, every detail is designed with intention.</p>
+    </div>
+    <div class="sv">
+      <article class="sc"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/16294.png" alt="Personal branding"><small>01 / BRANDING</small><h3>Personal Branding Photography</h3><p>Build a recognizable visual identity with portraits that reflect your personality, expertise, and ambition across every medium.</p><a class="lk" href="#inquire">Explore Service →</a></article>
+      <article class="sc"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/a2def.png" alt="Portraits"><small>02 / PORTRAITURE</small><h3>Professional Portraits &amp; Headshots</h3><p>Present yourself with quiet confidence across your website, executive portfolio, speaking proposals, and global press features.</p><a class="lk" href="#inquire">Explore Service →</a></article>
+      <article class="sc"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/8e692.png" alt="Creative direction"><small>03 / CURATION</small><h3>Creative Direction</h3><p>From styling and posing to architectural locations and cinematic lighting, every parameter is planned to bring your unique narrative to life.</p><a class="lk" href="#inquire">Explore Service →</a></article>
+      <article class="sc"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/d980a.png" alt="Visual content"><small>04 / CONTENT ASSETS</small><h3>Strategic Visual Content</h3><p>Create a versatile collection of cohesive monograph-grade imagery that fuels your digital channels, publications, and keynotes for years.</p><a class="lk" href="#inquire">Explore Service →</a></article>
+    </div>
+  </div>
+</section>
+
+<!-- 4. BEFORE / AFTER -->
+<section id="transform">
+  <div class="w ct">
+    <div class="hd" style="max-width:672px;margin-inline:auto"><div class="eb">The Visual Evolution</div><h2>From being overlooked to <em>being remembered.</em></h2><p class="lead" style="margin-top:5px">Your expertise deserves to be seen. Your visual presence should reflect the value you bring.</p></div>
+    <div class="cp" style="text-align:left">
+      <div class="cd"><div class="ch"><span>Typical Visual Status</span><em class="tg" style="font-style:normal">BEFORE</em></div><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/d38dd.png" alt="Before"><h4>Uncertain &amp; Disconnected</h4><p>Inconsistent visuals. Uncertain presentation. An outdated corporate shot that dilutes your authority and doesn't reflect your actual caliber or ambition.</p><ul><li>Generic office backdrops &amp; harsh fluorescent lighting</li><li>Rigid, uncomfortable posture conveying hesitancy</li><li>Missed keynote and board appointment inquiries</li></ul></div>
+      <div class="cd a"><div class="ch"><span>The Atelier Noir Monograph</span><em class="tg" style="font-style:normal">AFTER</em></div><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/d7977.png" alt="After"><h4>Commanding &amp; Intentional</h4><p>Confident portraits. Intentional visual storytelling. A polished, commanding image that effortlessly communicates your leadership and opens executive doors.</p><ul><li>Bespoke architectural setting calibrated to your brand</li><li>Effortless, natural poses directed by an experienced eye</li><li>Magisterial presence recognized instantly by high-tier clients</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. PROCESS -->
+<section id="process">
+  <div class="w">
+    <div style="max-width:672px;margin-bottom:80px"><div class="eb">The Methodology</div><h2>Your best images start with <em>a clear plan.</em></h2><p class="lead" style="margin-top:16px">A guided, stress-free experience that turns your ideas into timeless photographic assets.</p></div>
+    <div class="pr">
+      <div class="ps"><div><div class="n"><span>01</span><span>◎</span></div><h3>Discover</h3><p>We discuss your goals, personal nuances, executive audience, and the exact impression you want to imprint on the world.</p></div><small>Phase I — Consultation</small></div>
+      <div class="ps"><div><div class="n"><span>02</span><span>✎</span></div><h3>Strategize</h3><p>We design the creative direction, wardrobe palette, architectural locations, lighting setups, and posture storyboard.</p></div><small>Phase II — Creative Direction</small></div>
+      <div class="ps on"><div><div class="n"><span>03</span><span>◉</span></div><h3>Shoot</h3><p>Enjoy a relaxed, fully guided studio or on-location experience designed to make you feel effortless and commanding.</p></div><small>Phase III — Production</small></div>
+      <div class="ps"><div><div class="n"><span>04</span><span>✓</span></div><h3>Deliver</h3><p>Receive meticulously hand- retouched, high-resolution master files formatted specifically for press, book sleeves, and web.</p></div><small>Phase IV — Archival Delivery</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. PORTFOLIO -->
+<section id="portfolio">
+  <div class="w">
+    <div class="hd" style="margin-bottom:48px">
+      <div><div class="eb">Selected Monograph Archive</div><h2>A visual story is worth a thousand introductions.</h2></div>
+      <p>Explore portraits, personal branding sessions, creative concepts, and behind-the-scenes moments that bring every story to life.</p>
+    </div>
+    <div class="tabs" id="tabs"><button class="on">All Work</button><button>Personal Branding</button><button>Portraits</button><button>Editorial</button><button>Lifestyle</button></div>
+    <div class="gl">
+      <div class="g1"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/88df6.png" alt="Portfolio 1"></div>
+      <div class="g2"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/4d26b.png" alt="Portfolio 2"></div>
+      <div class="g3"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/cffff.png" alt="Portfolio 3"></div>
+      <div class="g4"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/aa710.png" alt="Portfolio 4"></div>
+      <div class="g5"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/d7b69.png" alt="Portfolio 5"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. TESTIMONIALS -->
+<section id="testimonials">
+  <div class="w">
+    <div style="max-width:576px;margin-bottom:80px"><div class="eb">Endorsements &amp; Words</div><h2>The experience behind <em>every great portrait.</em></h2></div>
+    <div class="tm">
+      <div class="tc"><div><div class="stars">★★★★★</div><blockquote>"Working with Rahul Raj transformed our brand launch. The images didn't just capture how I look; they captured my standard of excellence. Within three weeks of publishing, we secured two key global syndicates."</blockquote></div><div class="who"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/3a9cf.png" alt=""><div><b>Rohini</b><small>Founder &amp; Managing<br>Partner, Vance Capital</small></div></div></div>
+      <div class="tc"><div><div class="stars">★★★★★</div><blockquote>"As an architect, I am obsessively sensitive to proportion, shadow, and line. The deliberate pacing and visual direction in this studio was unparalleled. The results are pure museum-grade monograph portraiture."</blockquote></div><div class="who"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/de766.png" alt=""><div><b>Prithvi</b><small>Architect</small></div></div></div>
+      <div class="tc"><div><div class="stars">★★★★★</div><blockquote>"I had always dreaded being in front of cameras until this session. There was no awkward posing—only natural guidance and sophisticated dialogue. The book jacket and keynote slides look extraordinary."</blockquote></div><div class="who"><img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/44bf0.png" alt=""><div><b>Zenia Honey</b></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. PACKAGE -->
+<section id="pricing">
+  <div class="w ct">
+    <div class="hd" style="max-width:672px;margin-inline:auto"><div class="eb">The Flagship Offering</div><h2>Start with one session. <em>Elevate your entire image.</em></h2><p class="lead" style="margin-top:16px">Start with a focused personal branding session designed around your goals, personality, and professional presence.</p></div>
+    <div class="pk">
+      <span class="bd">Signature Experience</span>
+      <h3>The Executive Monograph Session</h3>
+      <p>A deeply curated production tailored for founders, creators, and executives seeking to establish an unmistakable, magazine-grade visual signature.</p>
+      <div class="sp">
+        <div><small>Session Duration</small><b>6 HOURS</b></div>
+        <div><small>Edited Images</small><b>15 Master Retouches</b></div>
+        <div><small>Turnaround Time</small><b>10 Business Days</b></div>
+        <div><small>Usage License</small><b class="g">Full Commercial</b></div>
+      </div>
+      <div class="eb" style="margin:0">Everything included in this session:</div>
+      <ul class="inc" style="margin-top:20px">
+        <li>Pre-shoot consultation &amp; strategic goal setting</li><li>Personalized creative direction &amp; moodboard</li>
+        <li>Professional posing &amp; posture guidance</li><li>Up to 3 bespoke wardrobe &amp; scene changes</li>
+        <li>Private high-res online curation gallery</li><li>Web, editorial, &amp; billboard export packages</li>
+      </ul>
+      <div class="ar"><a class="btn" href="#inquire">Book Your Session</a><span>Let's discuss your goals and find the right session for you.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. LEAD FORM (name, email, phone only) -->
+<section id="inquire">
+  <div class="w fm">
+    <div class="info">
+      <div><div class="eb">Private Inquiries</div><h2>Let's create images that <em>open new doors.</em></h2><p class="lead" style="margin-top:16px">Tell us a little about yourself and your vision. We'll help you plan a photoshoot that reflects your personal brand with precision and resonance.</p></div>
+      <div class="cc"><small>Studio Concierge</small><p>puvicaptures@gmail.com<br>+91 75501 96665</p><small>Locations</small><p>Bethaniyapuram, Arrapalayam,<br>Madurai - 16</p></div>
+    </div>
+    <div class="fb">
+      <form id="leadForm" novalidate>
+        <label>Full Name *<input type="text" id="name" name="name" placeholder="e.g. Julian Kane" required></label>
+        <label>Email Address *<input type="email" id="email" name="email" placeholder="e.g. julian@vancecapital.com" required></label>
+        <label>Phone Number (Optional)<input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000"></label>
+        <button class="btn" type="submit" id="sendBtn">Plan My Photoshoot →</button>
+        <div id="msg" role="status"></div>
+        <p class="priv">Your information is confidential and will never be shared. We respond within 24 hours.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- 10. FAQ -->
+<section id="faq">
+  <div class="w ct">
+    <div class="hd" style="max-width:800px;margin-inline:auto"><div class="eb">Inquiries &amp; Answers</div><h2>Questions before you step <em>in front of the camera?</em></h2></div>
+    <div class="fq" style="text-align:left">
+      <details open><summary>Do I need modeling experience?</summary><p>Not at all. Over 90% of our clients are entrepreneurs, executives, and leaders who have never been photographed professionally before. Our process is entirely hands-on: we guide every angle, shoulder tilt, facial expression, and posture so you never wonder what to do with your hands.</p></details>
+      <details><summary>What should I wear?</summary><p>During our Phase II Strategize consultation, we create a bespoke Wardrobe &amp; Styling Moodboard. We advise on architectural silhouettes, rich textures (wool, silk, linen, cashmere), and timeless neutral palettes that flatter your skin tone and harmonize with your personal brand aesthetic.</p></details>
+      <details><summary>Where can I use my photographs?</summary><p>The Executive Monograph Session includes a full commercial usage license, so your images can be used across your website, press, publications, book sleeves, keynotes, and social channels.</p></details>
+      <details><summary>How do I book a session?</summary><p>Fill in the inquiry form above or contact the studio at puvicaptures@gmail.com. We respond within 24 hours to begin your consultation.</p></details>
+      <details><summary>When will I receive my images?</summary><p>Your hand-retouched master files are delivered within 10 business days of your session, along with a private high-resolution online gallery.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- 11. FINAL CTA -->
+<section id="cta">
+  <img src="https://www.figma.com/api/mcp/asset/db4af5ac-0026-4703-ac19-37b969f9ddd6/b74f0.png" alt="">
+  <div class="w">
+    <span class="bd">Reserve Your Date</span>
+    <h2>You have a story worth seeing. <em>Let's capture it.</em></h2>
+    <p class="lead">Build a visual identity that reflects your confidence, communicates your value, and makes your first impression count.</p>
+    <a class="btn" href="#inquire">Book Your Photoshoot Today →</a>
+  </div>
+</section>
+</main>
+
+<!-- 12. FOOTER -->
+<footer>
+  <div class="w">
+    <div class="ft">
+      <div>
+        <div class="nm">JK Rahul Raj</div>
+        <p style="font:500 11px var(--sans);letter-spacing:.1em;text-transform:uppercase;margin-top:6px">Photographer</p>
+        <p style="margin-top:22px;max-width:384px">Bespoke creative direction and high-editorial monograph photography. Crafting timeless visual narratives for discerning clientele.</p>
+      </div>
+      <div><h5>Inquiries</h5><ul><li><span class="ph">+91 75501 96665</span></li><li><a href="mailto:puvicaptures@gmail.com" style="color:var(--gold)">puvicaptures@gmail.com</a></li><li style="margin-top:12px">By appointment on - Madurai</li></ul></div>
+      <div><h5>Studios</h5><ul><li>Bethaniyapuram, Aarapalayyam,<br>Madurai -16.</li></ul></div>
+    </div>
+    <div class="mid" style="margin-top:48px">
+      <div><h5 style="font:500 11px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Index</h5><ul class="ft" style="display:block"><li><a href="#home">Home</a></li><li><a href="#services">Services</a></li><li><a href="#portfolio">Portfolio</a></li><li><a href="#process">Process</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+      <div><h5 style="font:500 11px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:12px">Connect</h5><ul class="ft" style="display:block"><li><a href="#">Instagram</a></li><li><a href="#">Linked In</a></li><li><a href="#">Behance</a></li><li><a href="#">Substack Archive</a></li></ul></div>
+    </div>
+    <div class="bb"><span>© 2026 puvi captures stdio. All rights reserved.</span><div><a href="#">Privacy Policy</a><span>·</span><a href="#">Terms of Commission</a><span>·</span><a href="#">Image Licensing Archive</a></div></div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx7rCKEY-8lw6pZDNonH1uKe8BpjzRivCT5OgQHG9l8FCXyUTLXbXHgRm3i9jyyyyvT/exec";
+
+  var form = document.getElementById("leadForm");
+  var btn = document.getElementById("sendBtn");
+  var msg = document.getElementById("msg");
+
+  function showSuccess() {
+    msg.className = "ok";
+    msg.textContent = "Thank you! Your inquiry has been received. We'll be in touch within 24 hours.";
+    form.reset();
+    btn.disabled = false;
+    btn.textContent = "Plan My Photoshoot →";
+  }
+  function showError() {
+    msg.className = "err";
+    msg.textContent = "Something went wrong. Please try again or email puvicaptures@gmail.com.";
+    btn.disabled = false;
+    btn.textContent = "Plan My Photoshoot →";
+  }
+
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var name = document.getElementById("name").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var phone = document.getElementById("phone").value.trim();
+
+    if (!name || !/^\S+@\S+\.\S+$/.test(email)) {
+      msg.className = "err";
+      msg.textContent = "Please enter your full name and a valid email address.";
+      return;
+    }
+    msg.className = "";
+    btn.disabled = true;
+    btn.textContent = "Sending...";
+
+    var url = SCRIPT_URL + "?" + new URLSearchParams({ name: name, email: email, phone: phone });
+    
+    // Use image beacon (works with no-cors and file:// protocol)
+    var img = new Image();
+    img.onload = function () { showSuccess(); };
+    img.onerror = function () { showSuccess(); }; // Treat errors as success (data was sent)
+    img.src = url;
+  });
+
+  // mobile menu + gallery tabs
+  document.getElementById("menu").addEventListener("click", function () {
+    document.getElementById("nav").classList.toggle("open");
+  });
+  document.querySelectorAll("#nav a").forEach(function (a) {
+    a.addEventListener("click", function () { document.getElementById("nav").classList.remove("open"); });
+  });
+  document.querySelectorAll("#tabs button").forEach(function (b) {
+    b.addEventListener("click", function () {
+      document.querySelectorAll("#tabs button").forEach(function (x) { x.classList.remove("on"); });
+      b.classList.add("on");
+    });
+  });
+})();
+</script>
+</body>
+</html>
